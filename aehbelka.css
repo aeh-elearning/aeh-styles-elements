@@ -1,63 +1,84 @@
 blockquote {
-  margin: 0;
-  background-color: #f0f0f0;
-}
+        margin: 0;
+        background-color: #f0f0f0;
+      }
 
-img {
-  max-width: 100%;
-}
+      img {
+        max-width: 100%;
+      }
 
-.section-element {
-  margin: 4rem 0 !important;
-}
+      .section-element {
+        margin: 4rem 0 !important;
+      }
 
-summary {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 1.25rem 3rem;
-  background-color: #c2d1e9;
-  box-shadow: 8px 8px 11px -9px rgba(66, 68, 90, 1);
-  align-items: center;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 20px;
-  cursor: pointer;
+      summary {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1.25rem 9rem;
+        background-color: #c2d1e9;
+        box-shadow: 8px 8px 11px -9px rgba(66, 68, 90, 1);
+        align-items: center;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 20px;
+        cursor: pointer;
 
-  transition: margin 0.4s ease-out;
-  text-align: center;
-}
+        transition: margin 0.4s ease-out;
+        text-align: center;
+      }
 
-details {
-  margin: 1rem 0;
-}
+      .exercise-summary {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1.25rem 9rem;
+        background-color: #98b0d6;
+        box-shadow: 8px 8px 11px -9px rgba(66, 68, 90, 1);
+        align-items: center;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 20px;
+        cursor: pointer;
 
-.belka-title {
-  font-size: 1.3rem;
-}
-.belka-help {
-  font-size: 0.8rem;
-  margin-left: 0.8rem;
-}
-.content {
-  background-color: #e9eff2;
-  border-radius: 20px;
-  padding: 1rem 1rem;
-  box-shadow: 8px 8px 11px -9px rgba(66, 68, 90, 1);
-  margin-top: 0.1rem;
-}
+        transition: margin 0.4s ease-out;
+        text-align: center;
+      }
 
-.center-content {
-  text-align: center;
-  margin: 0.5rem;
-}
+      details {
+        margin: 1rem 0;
+      }
 
-details[open] summary {
-  margin-bottom: 10px;
-}
+      .belka-title {
+        font-size: 1.3rem;
+      }
+      .belka-help {
+        font-size: 0.8rem;
+        margin-left: 0.8rem;
+      }
+      .content {
+        background-color: #e9eff2;
+        border-radius: 20px;
+        padding: 1rem 1rem;
+        box-shadow: 8px 8px 11px -9px rgba(66, 68, 90, 1);
+        margin-top: 0.1rem;
+      }
 
-@media (max-width: 450px) {
-  summary {
-    padding: 0.7rem 3rem;
-  }
-}
+      .center-content {
+        text-align: center;
+        margin: 0.5rem;
+      }
+
+      details[open] summary {
+        margin-bottom: 10px;
+      }
+
+      @media (max-width: 450px) {
+        summary {
+          padding: 0.7rem 3rem;
+        }
+      }
+
+      .text-indentation {
+        padding-left: 2.5rem;
+      }
