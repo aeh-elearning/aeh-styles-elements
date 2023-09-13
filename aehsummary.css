@@ -1,0 +1,13 @@
+.summary {
+  list-style-type: none !important;
+  list-style-position: outside;
+}
+
+.summary li:before {
+  /* ikonka alternatywna - "check. W celu zmiany wystarczy przekleić w content pod spodem"*/
+  content: "task_alt";
+  font-family: "Material Icons";
+  font-size: 20px;
+  font-weight: 999;
+  color: #208dfb;
+}

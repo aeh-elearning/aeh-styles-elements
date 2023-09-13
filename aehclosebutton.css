@@ -1,0 +1,20 @@
+/* style samego przycisku do zamykania belek */
+.close-button {
+  background-color: #c2d1e9;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 8px 8px 11px -9px rgba(66, 68, 90, 1);
+  padding: 1.2rem 2rem;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.close-button:hover {
+  background-color: color-mix(in srgb, var(--bttn-bg-color, #c2d1e9), #000 25%);
+}
+
+.close-button:active {
+  background-color: color-mix(in srgb, var(--bttn-bg-color, #c2d1e9), #000 50%);
+  border: none;
+}

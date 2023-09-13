@@ -1,0 +1,29 @@
+.lista-aeh > li {
+  list-style-type: none;
+  margin: 0.5rem 0;
+}
+
+.lista-aeh label:hover {
+  background-color: #ebeff5de;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  /* tu można zmienić kolor na taki jaki się chce :) */
+  accent-color: #c2d1e9;
+  margin: 0 0.5rem;
+  width: 1.1rem; /* Set width */
+  height: 1.1rem; /* Set height */
+}
+#result {
+  background-color: #e9eff2;
+  width: 40%;
+  padding: 0.4rem 0;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  color: #111 !important;
+  box-shadow: 8px 8px 11px -9px rgba(66, 68, 90, 1);
+}
