@@ -14,7 +14,7 @@ blockquote {
       summary {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 1.25rem 9rem;
         background-color: #c2d1e9;
         box-shadow: 8px 8px 11px -9px rgba(66, 68, 90, 1);
