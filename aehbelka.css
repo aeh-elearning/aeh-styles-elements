@@ -82,3 +82,6 @@ blockquote {
       .text-indentation {
         padding-left: 2.5rem;
       }
+      .section-element {
+        margin: 4rem 0 !important;
+      }
