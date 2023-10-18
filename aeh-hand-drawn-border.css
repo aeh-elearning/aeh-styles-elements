@@ -1,0 +1,9 @@
+.aeh-hand-drawn-border {
+  display: inline-block;
+  margin: 5% auto;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding: 1em;
+  line-height: 1.5em;
+  background: #e9eff2;
+  border: solid 5px #c3d2e9;
+}
