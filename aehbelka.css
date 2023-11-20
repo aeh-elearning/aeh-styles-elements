@@ -82,3 +82,9 @@ blockquote {
       .text-indentation {
         padding-left: 2.5rem;
       }
+
+      .aeh-warning-border {
+        border: 2px solid black;
+        border-radius: 0.6rem;
+        padding: 0.5rem;
+      }
