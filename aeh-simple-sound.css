@@ -1,0 +1,18 @@
+.aeh-button {
+  background-color: #c2d1e9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 8px 8px 11px -9px rgba(66, 68, 90, 1);
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0.2rem;
+  color: black;
+}
+
+.aeh-button:hover {
+  background-color: color-mix(in srgb, var(--bttn-bg-color, #c2d1e9), #000 25%);
+}
+
+.aeh-button:active {
+  background-color: color-mix(in srgb, var(--bttn-bg-color, #c2d1e9), #000 50%);
+  border: none;
+}
